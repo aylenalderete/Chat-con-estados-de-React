@@ -1,0 +1,162 @@
+.mainContainer {
+    width: 25%;
+    background-color: rgb(24, 24, 24);
+    color: white
+}
+
+.chatContainer {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+.chatContainer:hover {
+    background-color: rgb(46, 46, 46);
+}
+
+.imagenContainer {
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+.imagen {
+    height: 55px;
+    border-radius: 55%;
+}
+
+.nombre {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.mensajeReciente {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color:rgb(146, 146, 146);
+    margin: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: start;
+}
+
+.logo {
+    height: 75%;
+    width: 71%;
+}
+
+.logoContainer {
+    width: 23%;
+    margin-top: 3%;
+    margin-left: 5px;
+}
+
+.titleReactChat {
+    margin-top: 26%;
+    font-weight: 600;
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.reactChat {
+    background-color: rgb(224, 0, 0);
+    display: flex;
+    height: 14%;
+    justify-content:flex-start;
+}
+
+.textoMensajeContainer {
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    text-align: start;
+    margin-left: 3%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .logoContainer {
+        width: 35%;
+    }
+
+    .logo {
+        height: 70%;
+        width: 71%;
+    }
+    
+    .imagenContainer {
+        margin-left: 5%;
+        margin-right: 3%;
+    }
+    
+    .imagen {
+        height: 55px;
+        border-radius: 55%;
+    }
+    
+    .nombre {
+        font-size: 14px;
+    }
+    
+    .mensajeReciente {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    .logoContainer {
+        width: 35%;
+    }
+
+    .logo {
+        height: 43%;
+        width: 79%;
+        margin-top: 10%;
+    }
+
+    .titleReactChat {
+        margin-top: 26%;
+        font-size: 11px;
+    }
+    
+    .reactChat {
+        display: flex;
+        height: 10%;
+        justify-content:flex-start;
+        align-items: center;
+    }
+
+    .imagenContainer {
+        margin-left: 5%;
+        margin-right: 3%;
+        height: 90%;
+    }
+    
+    .imagen {
+        margin-top: 20%;
+        height: 40%;
+    }
+    
+    .nombre {
+        font-size: 11px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        text-align: start;
+    }
+    
+    .mensajeReciente {
+        font-size: 10px;
+    }
+
+    .chatContainer {
+        height: 9%;
+    }
+
+    .createNew {
+        font-size: 10px;      
+    }
+}
