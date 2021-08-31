@@ -6,4 +6,4 @@
 
 Funcionalidades: mandar mensajes, navegar entre chats, agregar chats nuevos.
 <br/>
-Stack: React y CSS modules.
+Stack: React Js y CSS modules.
