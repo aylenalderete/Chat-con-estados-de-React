@@ -12,7 +12,7 @@ function Chats(props) {
         <div className={Styles.mainContainer}>
                 <div className={Styles.reactChat}>
                     <div className={Styles.logoContainer}>
-                        <img className={Styles.logo} src={logo}></img>
+                        <img className={Styles.logo} src="http://assets.stickpng.com/images/585e4bf3cb11b227491c339a.png"></img>
                     </div>
                     <div>
                         <p className={Styles.titleReactChat}>React Chat</p>
